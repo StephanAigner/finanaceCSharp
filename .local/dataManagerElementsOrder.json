@@ -1,0 +1,66 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Chore.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "res&Sequence_15",
+        "tableExist&Sequence_12",
+        "db_connection&Sequence_12",
+        "datatable_core&Flowchart_1",
+        "datatable_temp&Sequence_3",
+        "tableExist&Sequence_3",
+        "createTable&Sequence_3",
+        "isException&Flowchart_1",
+        "Shares&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LoadShares.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "jo_shares&Sequence_1",
+        "sharesContents&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_isException",
+        "out_Shares"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BusinessProcess/ResetAssetValue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "previousAssetValue&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "assetValue",
+        "assetName",
+        "assetValueWasChanged"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

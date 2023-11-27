@@ -1,0 +1,91 @@
+{
+  "name": "finanaceCSharp",
+  "projectId": "9b914f25-05e6-4ece-95c1-e264068bb72f",
+  "description": "Blank Process",
+  "main": "Chore.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.Python.Activities": "[1.7.1]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]",
+    "UiPath.WebAPI.Activities": "[1.18.0]",
+    "YahooFinanceApi": "[2.3.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Chore.xaml",
+      "uniqueId": "d3239c3d-9fb5-49fc-8bf1-4a2fca077cbb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "BusinessProcess\\CodedResetAssetValue.cs",
+      "uniqueId": "b9571def-7e5d-460d-ac32-ebac875e917a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "YahooFinance_GetHistoricalAsync.cs",
+      "uniqueId": "297fe8c9-396d-4f32-a2de-4fcdc1d4f3b8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "InitDataTable.cs",
+      "uniqueId": "90c1107f-b41c-4f20-9bbc-cd4fd7c2790d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "MergeDataTable.cs",
+      "uniqueId": "9e2f7b3a-02c0-4156-8291-f506d6d80ab3",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,81 @@
+﻿{
+  "Metadata": {
+    "Id": "29c58016-970d-47d4-9d49-43d24fdbc195",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "ShellForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Table",
+        "cellAlignment": "left",
+        "key": "table",
+        "type": "table",
+        "numCols": 1,
+        "input": false,
+        "tableView": false,
+        "rows": [
+          [
+            {
+              "components": [
+                {
+                  "label": "Submit",
+                  "action": "event",
+                  "showValidations": false,
+                  "tableView": false,
+                  "key": "submit1",
+                  "type": "button",
+                  "input": true
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "components": [
+                {
+                  "label": "Submit",
+                  "action": "event",
+                  "showValidations": false,
+                  "tableView": false,
+                  "key": "submit2",
+                  "type": "button",
+                  "input": true
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "components": [
+                {
+                  "label": "Submit",
+                  "action": "event",
+                  "showValidations": false,
+                  "tableView": false,
+                  "key": "submit3",
+                  "type": "button",
+                  "input": true
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
